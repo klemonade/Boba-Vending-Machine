@@ -32,10 +32,10 @@ int main()
     printf("2: Honey %43s\n","+5");
     printf("3: Brown sugar %41s\n\n","+10");
     printf("Toppings\n\n");
-    printf("0: Boba %58s\n","+5 (%d unit left)");
-    printf("1: Popping boba  %50s\n","+15 (%d unit left)");
-    printf("2: Jelly  %57s\n","+10 (%d unit left)");
-    printf("3: Pudding  %55s\n","+10 (%d unit left)");
+    printf("0: Boba %58s\n","+5 (%d unit left)",tp[0]);
+    printf("1: Popping boba  %50s\n","+15 (%d unit left)",tp[1]);
+    printf("2: Jelly  %57s\n","+10 (%d unit left)",tp[2]);
+    printf("3: Pudding  %55s\n","+10 (%d unit left)",tp[3]);
 
 
 
