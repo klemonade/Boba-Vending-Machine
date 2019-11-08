@@ -40,7 +40,7 @@ int main()
 
 
     printf("Please Enter your Menu\n");
-    scanf("%s",menu);
+    gets(menu);
     for (cnt=0;cnt<1;)
     {
         if (menu[1]=='\0')
@@ -257,7 +257,7 @@ int main()
 			}
 			 a = 0;
 		
-	int itotal = (ihun *100) + (ifit *50) + (itw *20) + (ifi *10) + (ifi *5);
+	int itotal = (ihun *100) + (ifit *50) + (itw *20) + (ite *10) + (ifi *5);
 		
 		printf("Total input: %d\n", itotal);
 		
