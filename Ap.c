@@ -40,6 +40,7 @@ int main()
 
 
     printf("Please Enter your Menu\n");
+    //scanf(" %c",)
     gets(menu);
     for (cnt=0;cnt<1;)
     {
