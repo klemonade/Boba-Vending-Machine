@@ -315,9 +315,11 @@ int main()
 			cten = 0;
 			cfiv = 0;  
 			c = change;
-		 for(int i = 0 ; i<5 ; i++){
-            sum_STOCK += MONEY_STOCK[i];
-        }
+		 while (true)
+         {
+             return 0;
+         }
+         
         if(sum_STOCK-change>=0){
             goto y ;
         }
